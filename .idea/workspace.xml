@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf06d55-29a2-4899-ab65-9f46b02338e6" name="Changes" comment=" Rework">
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoGame.java" afterDir="false" />
+    <list default="true" id="bbf06d55-29a2-4899-ab65-9f46b02338e6" name="Changes" comment=" Rework1.2">
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/Domino.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoDeck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoTile.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702820617261</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" Rework1.2">
+      <created>1702828629379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702828629379</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Work build" />
     <MESSAGE value=" Rework" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Rework" />
+    <MESSAGE value=" Rework1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Rework1.2" />
   </component>
 </project>
