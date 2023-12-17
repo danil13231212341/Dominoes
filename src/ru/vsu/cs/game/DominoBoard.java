@@ -10,34 +10,49 @@ class DominoBoard {
         tiles = new ArrayList<>();
     }
 
-    public List<DominoTile> getTiles() {
-        return tiles;
-    }
-
-    public void addTile(DominoTile tile) {
-        tiles.add(tile);
-    }
-
-    public int getLeftValue() {
+    public boolean canPlace(DominoTile tile) {
         if (tiles.isEmpty()) {
-            return -1;
+            return true;
+        } else {
+            int firstValue = tiles.get(0).getLeftValue();
+            int lastValue = tiles.get(tiles.size() - 1).getRightValue();
+            return tile.getLeftValue() == firstValue || tile.getRightValue() == firstValue ||
+                    tile.getLeftValue() == lastValue || tile.getRightValue() == lastValue;
         }
-        return tiles.get(0).getLeft();
     }
 
-    public int getRightValue() {
-        if (tiles.isEmpty()) {
-            return -1;
+    public void place(DominoTile tile, boolean atBeginning) {
+        if (atBeginning) {
+            if (tiles.isEmpty()) {
+                tiles.add(tile);
+            } else {
+                if (tile.getRightValue() == tiles.get(0).getLeftValue()) {
+                    tiles.add(0, tile);
+                } else {
+                    tiles.add(0, new DominoTile(tile.getRightValue(), tile.getLeftValue()));
+                }
+            }
+        } else {
+            if (tiles.isEmpty()) {
+                tiles.add(tile);
+            } else {
+                if (tile.getLeftValue() == tiles.get(tiles.size() - 1).getRightValue()) {
+                    tiles.add(tile);
+                } else {
+                    tiles.add(new DominoTile(tile.getRightValue(), tile.getLeftValue()));
+                }
+            }
         }
-        return tiles.get(tiles.size() - 1).getRight();
     }
 
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (DominoTile tile : tiles) {
-            sb.append(tile);
+            sb.append(tile.toString());
         }
         return sb.toString();
     }
 }
+
+

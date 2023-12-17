@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf06d55-29a2-4899-ab65-9f46b02338e6" name="Changes" comment="Work build">
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/Main.java" afterDir="false" />
+    <list default="true" id="bbf06d55-29a2-4899-ab65-9f46b02338e6" name="Changes" comment=" Rework">
+      <change afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dominoes/Deck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dominoes/Domino.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dominoes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dominoes/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domino.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/DominoTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/game/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698038547075</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" Rework">
+      <created>1702820617261</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820617261</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,21 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Work build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work build" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ru/vsu/cs/game/Main.java</url>
-          <line>3</line>
-          <properties class="ru.vsu.cs.game.Main" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value=" Rework" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Rework" />
   </component>
 </project>

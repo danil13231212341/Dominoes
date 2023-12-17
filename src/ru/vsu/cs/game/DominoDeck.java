@@ -1,10 +1,9 @@
 package ru.vsu.cs.game;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
-// Класс доски
 class DominoDeck {
     private List<DominoTile> tiles;
 
@@ -15,13 +14,14 @@ class DominoDeck {
                 tiles.add(new DominoTile(i, j));
             }
         }
+        Collections.shuffle(tiles);
     }
 
-    public void shuffle() {
-        Collections.shuffle(tiles, new Random());
+    public DominoTile draw() {
+        return tiles.remove(0);
     }
 
-    public List<DominoTile> getTiles() {
-        return tiles;
+    public int size() {
+        return tiles.size();
     }
 }

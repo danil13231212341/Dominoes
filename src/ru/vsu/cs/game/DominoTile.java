@@ -1,25 +1,24 @@
 package ru.vsu.cs.game;
 
-// Класс для представления костей домино
 class DominoTile {
-    private final int left;
-    private final int right;
+    private int leftValue;
+    private int rightValue;
 
-    public DominoTile(int left, int right) {
-        this.left = left;
-        this.right = right;
+    public DominoTile(int leftValue, int rightValue) {
+        this.leftValue = leftValue;
+        this.rightValue = rightValue;
     }
 
-    public int getLeft() {
-        return left;
+    public int getLeftValue() {
+        return leftValue;
     }
 
-    public int getRight() {
-        return right;
+    public int getRightValue() {
+        return rightValue;
     }
 
     @Override
     public String toString() {
-        return "[" + left + "|" + right + "]";
+        return "[" + leftValue + "|" + rightValue + "]";
     }
 }
